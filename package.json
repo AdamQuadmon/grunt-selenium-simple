@@ -1,0 +1,50 @@
+{
+  "name": "grunt-selenium-simple",
+  "description": "Run selenium server.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/adamquadmon/grunt-selenium",
+  "author": {
+    "name": "Luciano Amodio",
+    "email": "adamquadmon@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adamquadmon/grunt-selenium-simple.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamquadmon/grunt-selenium-simple/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/adamquadmon/grunt-selenium-simple/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "webdriver",
+    "selenium"
+  ],
+  "dependencies": {
+    "selenium-webdriver": "~2.35.0",
+    "async": "~0.2.9"
+  }
+}
